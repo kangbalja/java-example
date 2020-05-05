@@ -20,7 +20,7 @@ public class MyClass {
 	void methodA() {
 		RemoteControl rc = new Audio();
 		rc.turnOn();
-		rc.setVolume(5);;
+		rc.setVolume(5);
 	}
 	
 	void methodB(RemoteControl rc) {
