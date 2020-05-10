@@ -5,6 +5,13 @@ public class CarExample {
 	public static void main(String[] args) {
 		Car myCar = new Car();
 		
+		myCar.run();
+		
+		myCar.frontLeftTire = new KumhoTire();
+		myCar.frontRightTire = new KumhoTire();
+		
+		myCar.run();
+		
 		System.out.println("제작회사 : " + myCar.company);
 		System.out.println("모델명 : " + myCar.model);
 		System.out.println("색깔 : " + myCar.color);
